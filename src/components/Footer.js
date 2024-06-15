@@ -30,7 +30,7 @@ const Footer = () => {
     };
 
     return (
-        <footer style={{ backgroundColor: '#FFF5E0', padding: '10px 0', marginTop:'50px' }}>
+        <footer style={{ backgroundColor: '#FFF5E0', padding: '10px 0', marginTop: '50px', fontWeight: '700' }}>
             <Container maxWidth="lg" className="footer-container">
                 <Grid container spacing={3} justifyContent="center">
                     <Grid item xs={12} sm={6} md={3} className="footer-grid-item">
@@ -101,11 +101,11 @@ const Footer = () => {
                         {submitted && <Typography variant="body2" align="center" style={{ marginTop: '10px' }}>Thank you for subscribing!</Typography>}
                     </Grid>
                 </Grid>
-                <Typography variant="body2" align="center" className="quote" style={{ marginTop: '10px' }}>
+                <Typography variant="h5" align="center" className="quote" style={{ marginTop: '10px' }}>
                     {currentQuote}
                 </Typography>
                 <Typography variant="body2" align="center" style={{ marginTop: '10px' }}>
-                    © 2024 Exercise Website. All rights reserved.
+                    © 2024 FitJourney Website. All rights reserved.
                 </Typography>
             </Container>
         </footer>
