@@ -10,11 +10,11 @@ const HeroBanner = () => (
     </Typography>
     <Typography fontWeight={700} sx={{ fontSize: { lg: '44px', xs: '40px' } }}
       mb="23px" mt="30px">
-      Sweat, Smile <br />
-      And Repeat
+      Sweat, Grin, and <br />
+      Do It Again!
     </Typography>
     <Typography fontSize="22px" fontFamily="Alegreya" lineHeight="35px">
-      Check out the most effective exercises personalized to you
+      Discover Your Perfect Workout Routine!
     </Typography>
     <Stack>
       <a href="#exercises" style={{
@@ -26,7 +26,7 @@ const HeroBanner = () => (
       opacity: '0.1',
       display: { lg: 'block', xs: 'none' }, fontSize: '200px'
     }}>
-      Exercise
+      FitJourney
     </Typography>
     <img src={HeroBannerImage} alt="hero-banner" className="hero-banner-img" />
   </Box>

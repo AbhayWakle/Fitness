@@ -48,7 +48,6 @@ const Footer = () => {
                         <Typography variant="body2">
                             <Link href="#" id="footer-link">Home</Link><br />
                             <Link href="#exercises" id="footer-link">Exercises</Link><br />
-                            <Link href='#' id="footer-link">Contact</Link>
                         </Typography>
                     </Grid>
                     <Grid item xs={12} sm={6} md={3} className="footer-grid-item">

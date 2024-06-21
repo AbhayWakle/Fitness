@@ -9,9 +9,7 @@ import Loader from './Loader';
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
     const [currentPage, setCurrentPage] = useState(1);
     const [exercisesPerPage] = useState(6);
-    console.log(exercises);
-    console.log(bodyPart);
-
+   
     useEffect(() => {
         const fetchExercisesData = async () => {
             let exercisesData = [];
@@ -40,7 +38,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     };
 
     if (!currentExercises.length) return <Loader />;
-    console.log(exercises);
+    
     return (
         <Box id="exercises" sx={{ mt: { lg: '110px' } }} mt="50px" p="20px">
             <Typography variant="h3" fontWeight="bold" sx={{ fontSize: { lg: '44px', xs: '30px' } }} mb="46px">Showing Results</Typography>
